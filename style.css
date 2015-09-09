@@ -229,7 +229,7 @@ div#blog_sidebar {
 }
 
 .sidebar.scale:hover {
-    transform: scale(1.2);
+    transform: scale(1.3);
     font-size:inherit;
     color:#fff;
     text-align:center;
@@ -376,6 +376,10 @@ footer {
 	#navigation li a {
 		border: solid 3px #F1F0ED;
 		padding: 25px 30px;
+	}
+	.sidebar.scale:hover {
+		font-size:15px;
+		padding: 10px 0 !important;
 	}
 }
 @media only screen and (max-width: 640px) {
