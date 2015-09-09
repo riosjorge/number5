@@ -193,7 +193,7 @@ article header {
     50% { border-color: #fff }
 }
 
-h1,p span {display:none}
+h1,p span {display:none!important}
 
 header:hover h1,p:hover span { 
     display:block;
