@@ -193,7 +193,7 @@ article header {
     50% { border-color: #fff }
 }
 
-h1,p span {display:none!important}
+
 
 header:hover h1,p:hover span { 
     display:block;
@@ -212,7 +212,7 @@ header:hover h1,p:hover span {
 }
 
 
-
+h1,p span {display:none}
 
 div#blog_sidebar {
     background-color: #2F5454;
@@ -306,6 +306,7 @@ footer {
 /* Responsive styles */
 
 @media only screen and (max-width: 758px) {
+	h1,p span {display:none!important}
 	#navigation li a {
 		border: solid 3px #F1F0ED;
 		padding: 25px 30px;
